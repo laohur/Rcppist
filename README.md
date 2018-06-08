@@ -1,7 +1,7 @@
 ### Rcppist  rcpp包开发案例  
  
   
-# 安装Rcppist1  
+# 安装Rcppist    
 #下载安装Rtools  https://cran.r-project.org/bin/windows/Rtools/  
 system('where make')  显示路径则安装正确
 #Rstudio中运行(若无则安装)  
