@@ -13,5 +13,11 @@ If the random variable X obeys a normal distribution with a mathematical expecta
 
 }
 \examples{
-Rcppzlise(c(1:99))
+#Rcppist::zlise(c(1:99))
+#传入数值向量,返回数值向量
+X<-runif(100)*100
+X
+Y<-Rcppist::zlise(X)
+Y
+#Y即X的z分数
 }

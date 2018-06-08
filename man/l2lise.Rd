@@ -16,7 +16,7 @@ It is the sum of the square of the difference between the sample and the label.
 
 }
 \examples{
-Rcppl2lise(c(1:9))
+Rcppist::l2lise(c(1:9))
 }
 
 

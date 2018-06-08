@@ -19,6 +19,6 @@ The Softmax function gets the value of a [0,1], and the probability that the sof
 
 }
 \examples{
-Rcppsoftmax(c(1:9))
+Rcppist::softmax(c(1:9))
 }
 
