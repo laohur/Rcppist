@@ -33,7 +33,3 @@ csort
 
 #以下传入两个数值向量,返回数值  
 cosineSimilarity  
-
-运行的截图
-![avatar](man/rcpp.png)
-[Image text](https://raw.githubusercontent.com/laohur/Rcppist/master/man/rcpp.PNG)
