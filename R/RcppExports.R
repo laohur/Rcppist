@@ -9,6 +9,10 @@ csort <- function(X) {
     .Call(`_Rcppist_csort`, X)
 }
 
+ctanh <- function(X) {
+    .Call(`_Rcppist_ctanh`, X)
+}
+
 l2lise <- function(orig) {
     .Call(`_Rcppist_l2lise`, orig)
 }
@@ -27,10 +31,6 @@ relu <- function(X) {
 
 softmax <- function(X) {
     .Call(`_Rcppist_softmax`, X)
-}
-
-tanh <- function(X) {
-    .Call(`_Rcppist_tanh`, X)
 }
 
 zlise <- function(orig) {

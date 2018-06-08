@@ -28,6 +28,17 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// ctanh
+NumericVector ctanh(const NumericVector& X);
+RcppExport SEXP _Rcppist_ctanh(SEXP XSEXP) {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< const NumericVector& >::type X(XSEXP);
+    rcpp_result_gen = Rcpp::wrap(ctanh(X));
+    return rcpp_result_gen;
+END_RCPP
+}
 // l2lise
 NumericVector l2lise(const NumericVector& orig);
 RcppExport SEXP _Rcppist_l2lise(SEXP origSEXP) {
@@ -82,17 +93,6 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-// tanh
-NumericVector tanh(const NumericVector& X);
-RcppExport SEXP _Rcppist_tanh(SEXP XSEXP) {
-BEGIN_RCPP
-    Rcpp::RObject rcpp_result_gen;
-    Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< const NumericVector& >::type X(XSEXP);
-    rcpp_result_gen = Rcpp::wrap(tanh(X));
-    return rcpp_result_gen;
-END_RCPP
-}
 // zlise
 NumericVector zlise(const NumericVector& orig);
 RcppExport SEXP _Rcppist_zlise(SEXP origSEXP) {
@@ -108,12 +108,12 @@ END_RCPP
 static const R_CallMethodDef CallEntries[] = {
     {"_Rcppist_cosineSimilarity", (DL_FUNC) &_Rcppist_cosineSimilarity, 2},
     {"_Rcppist_csort", (DL_FUNC) &_Rcppist_csort, 1},
+    {"_Rcppist_ctanh", (DL_FUNC) &_Rcppist_ctanh, 1},
     {"_Rcppist_l2lise", (DL_FUNC) &_Rcppist_l2lise, 1},
     {"_Rcppist_rcpp_hello_world", (DL_FUNC) &_Rcppist_rcpp_hello_world, 0},
     {"_Rcppist_rcpp_zlise", (DL_FUNC) &_Rcppist_rcpp_zlise, 1},
     {"_Rcppist_relu", (DL_FUNC) &_Rcppist_relu, 1},
     {"_Rcppist_softmax", (DL_FUNC) &_Rcppist_softmax, 1},
-    {"_Rcppist_tanh", (DL_FUNC) &_Rcppist_tanh, 1},
     {"_Rcppist_zlise", (DL_FUNC) &_Rcppist_zlise, 1},
     {NULL, NULL, 0}
 };

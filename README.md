@@ -23,7 +23,7 @@ Y
 
 #以下传入数值向量,返回数值向量  
 zlise  
-tanh  
+ctanh  
 softmax  
 l2lise  
 relu  

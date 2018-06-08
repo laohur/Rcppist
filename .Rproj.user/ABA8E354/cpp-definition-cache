@@ -3,6 +3,159 @@
         "definitions" : [
             {
                 "column" : 9,
+                "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/cosineSimilarity.cpp",
+                "kind" : 6,
+                "line" : 9,
+                "name" : "cosineSimilarity(const NumericVector &, const NumericVector &)",
+                "parent_name" : "",
+                "usr" : "c:@F@cosineSimilarity#&1$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#S0_#"
+            }
+        ],
+        "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/cosineSimilarity.cpp",
+        "file_last_write" : 1528436210
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/csort.cpp",
+                "kind" : 3,
+                "line" : 11,
+                "name" : "node",
+                "parent_name" : "",
+                "usr" : "c:@S@node"
+            },
+            {
+                "column" : 6,
+                "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/csort.cpp",
+                "kind" : 6,
+                "line" : 16,
+                "name" : "compare(const void *, const void *)",
+                "parent_name" : "",
+                "usr" : "c:@F@compare#*1v#S0_#"
+            },
+            {
+                "column" : 15,
+                "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/csort.cpp",
+                "kind" : 6,
+                "line" : 23,
+                "name" : "csort(const NumericVector &)",
+                "parent_name" : "",
+                "usr" : "c:@F@csort#&1$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/csort.cpp",
+        "file_last_write" : 1528436131
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/ctanh.cpp",
+                "kind" : 6,
+                "line" : 10,
+                "name" : "ctanh(const NumericVector &)",
+                "parent_name" : "",
+                "usr" : "c:@F@ctanh#&1$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/ctanh.cpp",
+        "file_last_write" : 1528447981
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/l2lise.cpp",
+                "kind" : 6,
+                "line" : 8,
+                "name" : "l2lise(const NumericVector &)",
+                "parent_name" : "",
+                "usr" : "c:@F@l2lise#&1$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/l2lise.cpp",
+        "file_last_write" : 1528127530
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/rcpp_hello_world.cpp",
+                "kind" : 6,
+                "line" : 6,
+                "name" : "rcpp_hello_world",
+                "parent_name" : "",
+                "usr" : "c:@F@rcpp_hello_world#"
+            }
+        ],
+        "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/rcpp_hello_world.cpp",
+        "file_last_write" : 1528442903
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/rcpp_zlise.cpp",
+                "kind" : 6,
+                "line" : 6,
+                "name" : "rcpp_zlise(const NumericVector &)",
+                "parent_name" : "",
+                "usr" : "c:@F@rcpp_zlise#&1$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/rcpp_zlise.cpp",
+        "file_last_write" : 1528431145
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/relu.cpp",
+                "kind" : 6,
+                "line" : 10,
+                "name" : "relu(const NumericVector &)",
+                "parent_name" : "",
+                "usr" : "c:@F@relu#&1$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/relu.cpp",
+        "file_last_write" : 1528435843
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/softmax.cpp",
+                "kind" : 6,
+                "line" : 10,
+                "name" : "softmax(const NumericVector &)",
+                "parent_name" : "",
+                "usr" : "c:@F@softmax#&1$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/softmax.cpp",
+        "file_last_write" : 1528436033
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/zlise.cpp",
+                "kind" : 6,
+                "line" : 7,
+                "name" : "zlise(const NumericVector &)",
+                "parent_name" : "",
+                "usr" : "c:@F@zlise#&1$@N@Rcpp@C@Vector>#VI14#@N@Rcpp@CT>1#T@PreserveStorage#"
+            }
+        ],
+        "file" : "C:/Users/zen/Documents/GitHub/Rcppist/src/zlise.cpp",
+        "file_last_write" : 1528129101
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 9,
                 "file" : "C:/code/r/Rcppist/src/cosineSimilarity.cpp",
                 "kind" : 6,
                 "line" : 9,
