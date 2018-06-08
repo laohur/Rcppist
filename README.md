@@ -35,4 +35,4 @@ csort
 cosineSimilarity  
 
 运行的截图
-[Image text]("man/rcpp.png")
+[Image text]("./man/rcpp.png")
