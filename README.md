@@ -35,5 +35,5 @@ csort
 cosineSimilarity  
 
 运行的截图
-![avatar](/man/rcpp.png)
+![avatar](man/rcpp.png)
 [Image text](https://raw.githubusercontent.com/laohur/Rcppist/master/man/rcpp.PNG)
