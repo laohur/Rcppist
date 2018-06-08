@@ -15,7 +15,7 @@ install_github("laohur/Rcppist")
 # 使用Rcppist1  rcpp_zlise
 X<-runif(100)*100  
 X  
-Y<-Rcppist::rcpp_zlise(X)  
+Y<-Rcppist::zlise(X)  
 Y  
   
 #即可获得Y,即X的z分数  
