@@ -12,7 +12,7 @@ library("devtools")
 install_github("laohur/Rcppist")    
   
   
-# 使用Rcppist1  zlise为例
+# 使用Rcppist  zlise为例
 X<-runif(100)*100  
 X  
 Y<-Rcppist::zlise(X)  
