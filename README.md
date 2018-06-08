@@ -3,11 +3,11 @@
   
 # 安装Rcppist    
 #下载安装Rtools  https://cran.r-project.org/bin/windows/Rtools/  
-system('where make')  显示路径则安装正确
-#Rstudio中运行(若无则安装)  
-#install.packages("Rcpp")  #若不存在  
+#Rstudio中运行  
+system('where make')  #显示路径则安装正确  
+#install.packages("Rcpp")  #若无则安装    
 library("Rcpp")    
-#install.packages("devtools")  #若不存在    
+#install.packages("devtools")  #若无则安装      
 library("devtools")      
 install_github("laohur/Rcppist")    
   
