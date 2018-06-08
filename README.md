@@ -35,4 +35,4 @@ csort
 cosineSimilarity  
 
 运行的截图
-[Image text](man/rcpp.png)
+[Image text](https://raw.githubusercontent.com/laohur/Rcppist/master/man/rcpp.PNG)
