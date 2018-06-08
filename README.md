@@ -33,3 +33,6 @@ csort
 
 #以下传入两个数值向量,返回数值  
 cosineSimilarity  
+
+运行的截图
+[Image text]("man/rcpp.png")
