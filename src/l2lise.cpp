@@ -5,20 +5,20 @@
 using namespace Rcpp; 
 
 // [[Rcpp::export]]
-NumericVector l2lise (const NumericVector & orig) {
-    int n=orig.size();
-    NumericVector vec(n);
+NumericVector l2lise (const NumericVector & X) {
+    int n=X.size();
+    NumericVector Y(n);
     double sum=0;
     for(int i=0; i<n; i++){
-        vec[i]=orig[i]*orig[i];
-        sum+=vec[i];
+        Y[i]=X[i]*X[i];
+        sum+=Y[i];
     }
     sum=sqrt(sum);
     for(int i=0; i<n; i++){
-        vec[i]=vec[i]/sum;
+        Y[i]=Y[i]/sum;
     }
 
-    return vec;
+    return Y;
 }
 
 

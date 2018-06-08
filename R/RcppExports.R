@@ -13,8 +13,8 @@ ctanh <- function(X) {
     .Call(`_Rcppist_ctanh`, X)
 }
 
-l2lise <- function(orig) {
-    .Call(`_Rcppist_l2lise`, orig)
+l2lise <- function(X) {
+    .Call(`_Rcppist_l2lise`, X)
 }
 
 rcpp_hello_world <- function() {
@@ -33,7 +33,7 @@ softmax <- function(X) {
     .Call(`_Rcppist_softmax`, X)
 }
 
-zlise <- function(orig) {
-    .Call(`_Rcppist_zlise`, orig)
+zlise <- function(X) {
+    .Call(`_Rcppist_zlise`, X)
 }
 

@@ -40,13 +40,13 @@ BEGIN_RCPP
 END_RCPP
 }
 // l2lise
-NumericVector l2lise(const NumericVector& orig);
-RcppExport SEXP _Rcppist_l2lise(SEXP origSEXP) {
+NumericVector l2lise(const NumericVector& X);
+RcppExport SEXP _Rcppist_l2lise(SEXP XSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< const NumericVector& >::type orig(origSEXP);
-    rcpp_result_gen = Rcpp::wrap(l2lise(orig));
+    Rcpp::traits::input_parameter< const NumericVector& >::type X(XSEXP);
+    rcpp_result_gen = Rcpp::wrap(l2lise(X));
     return rcpp_result_gen;
 END_RCPP
 }
@@ -94,13 +94,13 @@ BEGIN_RCPP
 END_RCPP
 }
 // zlise
-NumericVector zlise(const NumericVector& orig);
-RcppExport SEXP _Rcppist_zlise(SEXP origSEXP) {
+NumericVector zlise(const NumericVector& X);
+RcppExport SEXP _Rcppist_zlise(SEXP XSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< const NumericVector& >::type orig(origSEXP);
-    rcpp_result_gen = Rcpp::wrap(zlise(orig));
+    Rcpp::traits::input_parameter< const NumericVector& >::type X(XSEXP);
+    rcpp_result_gen = Rcpp::wrap(zlise(X));
     return rcpp_result_gen;
 END_RCPP
 }
