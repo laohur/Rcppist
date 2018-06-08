@@ -12,15 +12,15 @@ library("devtools")
 install_github("laohur/Rcppist")    
   
   
-# 使用Rcppist1  rcpp_zlise
+# 使用Rcppist1  zlise
 X<-runif(100)*100  
 X  
 Y<-Rcppist::zlise(X)  
 Y  
-  
+
 #即可获得Y,即X的z分数  
 
-# 库函数  
+# 函数库    
 
 #以下传入数值向量,返回数值向量  
 zlise  
