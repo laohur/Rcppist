@@ -8,13 +8,13 @@
 library("Rcpp")    
 #install.packages("devtools")  #若不存在    
 library("devtools")      
-install_github("laohur/Rcppist1")    
+install_github("laohur/Rcppist")    
   
   
 # 使用Rcppist1  rcpp_zlise
 X<-runif(100)*100  
 X  
-Y<-Rcppist1::rcpp_zlise(X)  
+Y<-Rcppist::rcpp_zlise(X)  
 Y  
   
 #即可获得Y,即X的z分数  
