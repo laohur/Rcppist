@@ -17,8 +17,7 @@ X<-runif(100)*100
 X  
 Y<-Rcppist::zlise(X)  
 Y  
-
-#即可获得Y,即X的z分数  
+#Y即X的z分数  
 
 # 函数库    
 
