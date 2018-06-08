@@ -3,6 +3,7 @@
   
 # 安装Rcppist1  
 #下载安装Rtools  https://cran.r-project.org/bin/windows/Rtools/  
+system('where make')  显示路径则安装正确
 #Rstudio中运行(若无则安装)  
 #install.packages("Rcpp")  #若不存在  
 library("Rcpp")    
