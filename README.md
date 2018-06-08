@@ -1,4 +1,4 @@
-### Rcppist1  rcpp包开发案例  
+### Rcppist  rcpp包开发案例  
  
   
 # 安装Rcppist1  
